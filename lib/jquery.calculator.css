@@ -1,0 +1,171 @@
+body { 
+font-family: "helvetica neue", helvetica, arial, sans-serif;
+ }
+.clear {
+	float: none;
+	clear: both;
+}
+#calculator {
+	right:  200px;
+	top: 150px;
+	text-align: center;
+	color: white;
+	background: #182832;
+	border: 3px solid #858d93;
+	border-radius: 17px;
+ 	-moz-border-radius: 17px;
+ 	-webkit-border-radius: 17px;
+	position: absolute;
+	width: 204px; 
+	padding: 5px 10px 8px 10px; 
+	-moz-box-shadow: 0px 3px 3px #bbb;
+	-webkit-box-shadow: 0px 3px 3px #bbb;
+	box-shadow: 0px 3px 3px #bbb;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#bbbbbb')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#bbbbbb');
+}
+#calculator .result { 
+	height: 20px;
+	padding: 10px 10px 3px 0;
+	border: 3px solid #fff; 
+	background-color: #dae9f9;
+	text-align: right; 
+	font-size: 18px; 
+	font-weight: bold;
+	border-radius: 6px;
+ 	-moz-border-radius: 6px;
+ 	-webkit-border-radius: 6px;
+	color: #444;
+	margin-top: 5px;
+}
+#calculator ul  {
+	list-style-type: none;
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0pt;
+	padding: 0pt;
+}
+#calculator ul li {
+	float: left;
+	margin: 3px;
+	width: 45px;
+}
+#calculator ul.button li {
+   cursor: pointer;
+   border-top: 1px solid #6a747b;
+   background: #465560;
+   background: -webkit-gradient(linear, left top, left bottom, from(#162732), to(#465560));
+   background: -moz-linear-gradient(top, #162732, #465560);
+   padding: 8px 0;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #e4e5e6;
+   font-size: 18px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#calculator .extra_functions ul li {
+      padding: 3px 0;
+      font-size: 12px;
+}
+#calculator ul.button li:hover {
+   border-top-color: #162731;
+   background: #0594d1;
+   color: #ffffff;
+}
+#calculator ul.button li:active {
+   border-top-color: #0594d1;
+   background: #005695;
+}
+
+#calculator .main_functions ul.button li {
+   border-top: 1px solid #ffffff;
+   background: #939ba1;
+   background: -webkit-gradient(linear, left top, left bottom, from(#cfd4d8), to(#939ba1));
+   background: -moz-linear-gradient(top, #cfd4d8, #939ba1);
+
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #162731;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#calculator .main_functions ul.button li:hover {
+   border-top-color: #cdcb64;
+   background: #cdcb64;
+   color: #ffffff;
+   }
+#calculator .main_functions ul.button li:active {
+   border-top-color: #92c223;
+   background: #92c223;
+   }
+
+#calculator ul.button li.calculate {
+	background: none;
+	background: #fff;
+	line-height: 44px;
+	font-size: 18;
+	height: 47px;
+}
+#calculator ul.button li.calculate:hover {
+   border-top-color: #fff;
+   background: #fcb83d;
+   color: #ffffff;
+   }
+#calculator ul.button li.calculate:active {
+   border-top-color: #fcb83d;
+   background: #f17e30;
+   }
+   
+#calculator .digits {
+	width: 153px;
+}
+#calculator .main_functions {
+	width: 48px;
+	float: left;
+}
+#calculator .main_functions ul li {
+	padding:2px 0;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 14px;
+	height: 18px;
+	
+	
+}
+#calculator .handle {
+	float: left;
+	width: 120px;
+	letter-spacing: 2px;
+	text-align: left;
+	padding-left: 5px;
+	color: #939ba1;
+}
+#calculator .close {
+	float: right;
+	font-size: 12px;
+	line-height: 20px;
+}
+#calculator .modify {
+	height: 35px;
+	cursor: pointer;
+	line-height: 30px;
+	color: #bc2e20;
+}
+#calculator .modify li:hover { color: red; }
+#calculator .modify li:active { color: #f17e30; }
